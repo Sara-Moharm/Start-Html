@@ -18,14 +18,30 @@
  * unshift and shift
  */
 
-let courseMaterial = ["HTML", "CSS", "JS"];
+// let courseMaterial = ["HTML", "CSS", "JS"];
 
-courseMaterial.push("Bootstrap", "React");
-courseMaterial.pop();
+// courseMaterial.push("Bootstrap", "React");
+// courseMaterial.pop();
 
-console.log(courseMaterial);
+// console.log(courseMaterial);
 
-courseMaterial.unshift("Tailwind");
-courseMaterial.shift();
+// courseMaterial.unshift("Tailwind");
+// courseMaterial.shift();
 
-console.log(courseMaterial);
+// console.log(courseMaterial);
+
+// ====================== For Loop =============================
+
+let arr = [10, 30, 50, 80, 100];
+
+for (let i = 0; i <= 4; i++) {
+  console.log(arr[i]);
+}
+
+console.log("\n\n");
+
+arr.push(200);
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
