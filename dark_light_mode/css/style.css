@@ -1,0 +1,15 @@
+.light {
+  background-color: rgb(255, 255, 255);
+}
+
+.dark {
+  background-color: rgb(0, 0, 0);
+}
+
+.light-text {
+  color: red;
+}
+
+.dark-text {
+  color: white;
+}
