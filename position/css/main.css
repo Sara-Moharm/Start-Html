@@ -138,12 +138,12 @@ header {
 
 /* Start Section */
 section .row {
-  position: relative;
   margin-top: 5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
+
 section .row .col {
   background-color: var(--light-color);
   color: rgb(61, 57, 57);
@@ -152,19 +152,22 @@ section .row .col {
   box-shadow: -1px -1px 1px;
 }
 
-section .row .col1 {
-  width: 55%;
+section .row .col:nth-child(1) {
   position: relative;
-  left: 80px;
-  top: 170px;
+  left: 2rem;
   z-index: -1;
+  top: 10rem;
+  position: relative;
 }
-
+/* section .row .col1 {
+ 
+} */
+/* 
 section .row .col2 {
   width: 33.33%;
   position: absolute;
   right: 150px;
-}
+} */
 
 section .row .col h2 {
   font-style: italic;
@@ -179,6 +182,7 @@ section .row .col p {
 }
 
 section .row .col button {
+  display: block;
   padding: 1rem;
   background-color: var(--bg-primary-color);
   /* margin-left: 20rem; */
@@ -186,8 +190,9 @@ section .row .col button {
   outline: none;
   border-radius: 1.8rem;
   /* margin-top: 1rem; */
-  position: absolute;
+  /* position: absolute; */
   /* top: 50%; */
-  bottom: 8px;
-  left: 40%;
+  /* bottom: 8px;
+  left: 40%; */
+  margin: 10px auto;
 }
