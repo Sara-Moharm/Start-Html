@@ -6,35 +6,30 @@
         private float $width;
 
         // Constructor
-        public function __construct($length,$width){
+        public function __construct(float $length,$width){
             $this->length = $length;
             $this->width= $width;       }
         
-        // Set Length
+        // Setter And Getter Length
         public function setLength($length): void{
             $this->length = $length;
         }
-
-        // Set Width
-
-        public function setWidth($width) : void {
-            $this->width = $width;
-        }
-
-        // Get Length
 
         public function getLength() : float {
             return $this->length;
         }
 
-        // Get Width
+
+        // Setter And Getter Width
+        public function setWidth($width) : void {
+            $this->width = $width;
+        }
 
         public function getWidth() : float {
             return $this->width;
         }
 
         // Get Area
-
         public function getArea() : float {
             return $this->length * $this->width;
         }
@@ -46,7 +41,7 @@
 
         // To Display The Data
         public function toString(){
-            echo 'The length of the rectangle is ' . $this->length . '<br>' . 'The width of the rectangle is ' . $this->width;
+            echo 'The length of the rectangle is ' . $this->length . '<br>' . 'The width of the rectangle is ' . $this->width . '<br>';
         }
     }
     
